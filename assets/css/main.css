@@ -5,7 +5,7 @@ body, html {
 
 /*----------------navbar------------------*/
 .navbar {
-    background-color: #6f9abf;
+    background-color: #838485;
     width: auto;
     height: auto;
     margin: 1px;
@@ -22,10 +22,10 @@ body, html {
     width: 700px;
 }
 .nav-menu {
-    background-color: #s
+    background-color: 
 }
 .nav-item {
-    color: pink;
+    color: rgb(47, 209, 60);
     font-size: 24px;
     text-decoration: none;
     margin-left: 10px;
@@ -33,7 +33,7 @@ body, html {
     transition: .5s;
 }
 .nav-item:hover {
-    color: red;
+    color: rgb(166, 255, 0);
     text-decoration: none;
 }
 
@@ -57,7 +57,7 @@ body, html {
 /*-----------------footer-----------------------*/
 .footer {
     display: flex;
-    background-color: #5176a6;
+    background-color: #838485;
     margin: 1px;
     color: #4a4a4f;
     width: 100%;
@@ -98,4 +98,24 @@ p.copyright {
     font-size: 12px;
     padding: 20px;
     margin: 2px;
+}
+/*---------------index2/3/4/5 html--------------------*/
+
+.store {
+    color: red;
+    text-align: center;
+    font-size: 80px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.gallery {
+    color: pink;
+    text-align: center;
+}
+.contact {
+    color: black;
+    text-align: center;
+}
+.basket {
+    color:green;
+    text-align: center;
 }
