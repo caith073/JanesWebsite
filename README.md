@@ -9,4 +9,22 @@ Includes product pages, shopping basket and payment options.
 
 I would like to buy Janes products online
 
-I would like to contact jane about bespoke orders
+I would like to contact Jane about bespoke orders
+
+## Strategy 
+## Scope 
+## Structure
+## Skeleton
+## Surface
+
+## Features
+  ### Existing Features 
+  ### Features left To Implement
+## Technologies Used
+  * HTML
+  * CSS
+  * Bootstrap 4.3.1
+
+## Testing
+
+## Deployment
