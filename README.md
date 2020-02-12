@@ -24,6 +24,7 @@ I would like to contact Jane about bespoke orders
   * HTML
   * CSS
   * Bootstrap 4.3.1
+  * Font Awesome 3.7.1
 
 ## Testing
 
