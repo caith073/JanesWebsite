@@ -49,6 +49,7 @@ body, html {
     -o-background-size: cover;
     background-size: cover;
     justify-content: center;
+    align-content: center;
     position: inherit;
 }
 .row {
@@ -147,4 +148,19 @@ p.copyright {
     .row {
         display: inline;
     }
+}
+
+/*----------------index 4 - Contact US------------------*/
+.modal-body {
+    background-color: #838485;
+    color:#d0d5df;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    width: 50%;
+    margin-left: 380px;
+    border-radius: 10px;
+}
+.form-text {
+    color: #d0d5df;
 }
