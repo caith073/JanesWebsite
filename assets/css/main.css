@@ -40,6 +40,7 @@ body, html {
 /*-----------------container-------------------*/
 .container-fluid {
     background-color: #d0d5df;
+    background: url("/assets/images/cornwallmapBG.PNG");
     height: 100vh;
     padding: 15px;
     opacity: 0.75;
@@ -60,7 +61,6 @@ body, html {
     height: 100px;
 }
 .img {
-    display: inline-block;
     padding: 1em;
     margin: 1em;
 }
@@ -128,4 +128,23 @@ p.copyright {
 .basket {
     color:green;
     text-align: center;
+}
+
+/*----------------media breakpoints IPAD------------------*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .tablet {
+        background-color: #bada55;
+    }
+    .row {
+        display: inline;
+    }
+}
+/*----------------media breakpoints MOBILE------------------*/
+@media (max-width:767px) {
+    .mobile {
+        background-color: #0997d3;
+    }
+    .row {
+        display: inline;
+    }
 }
