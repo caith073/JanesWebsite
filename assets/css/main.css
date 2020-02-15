@@ -1,6 +1,7 @@
 body, html {
     font-family: "Roboto", sans-serif;
     color: #4a4a4f;
+    justify-content: center;
 }
 
 /*----------------navbar------------------*/
@@ -50,10 +51,10 @@ body, html {
     background-size: cover;
     justify-content: center;
     align-content: center;
-    position: inherit;
 }
 .row {
     display: inline-block;
+    justify-content: center;
     padding: 10px;
     margin-left: 3em;
 }
@@ -123,7 +124,7 @@ p.copyright {
     text-align: center;
 }
 .contact {
-    color: black;
+    color: #838485;
     text-align: center;
 }
 .basket {
@@ -151,16 +152,25 @@ p.copyright {
 }
 
 /*----------------index 4 - Contact US------------------*/
+.container-fluid1 {
+    background-color: #d0d5df;
+    background: url("/assets/images/cornwallmapBG.PNG");
+    height: 100vh;
+    padding: 16em;
+    opacity: 0.75;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
 .modal-body {
-    background-color: #838485;
-    color:#d0d5df;
+    background-color: #d0d5d9;
+    color: #4a4a4f;
     text-align: center;
     align-content: center;
-    position: relative;
-    width: 50%;
-    margin-left: 380px;
     border-radius: 10px;
 }
-.form-text {
-    color: #d0d5df;
-}
+
+
