@@ -112,7 +112,26 @@ p.copyright {
     margin: 2px;
 }
 /*---------------index2/3/4/5 html--------------------*/
-
+.container-fluid1 {
+    background-color: #d0d5df;
+    background: url("/assets/images/cornwallmapBG.PNG");
+    height: 100vh;
+    opacity: 0.75;
+    padding: 24px 16em 16em;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    justify-content: center;
+    align-content: center;
+}
+ .modal-body {
+    background-color: #000;
+    color: #4a4a4f;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+}
 .store {
     color: red;
     text-align: center;
@@ -137,40 +156,55 @@ p.copyright {
     .tablet {
         background-color: #bada55;
     }
-    .row {
-        display: inline;
+    .modal-body {
+        background-color: #000;
+        color: #4a4a4f;
+        text-align: center;
+        align-content: center;
+        border-radius: 10px;
+    }
+    .container-fluid1 {
+        background-color: #000;
+        background: url("/assets/images/cornwallmapBG.PNG");
+        height: 100vh;
+        opacity: 0.75;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        justify-content: center;
+        align-content: center;
     }
 }
+
 /*----------------media breakpoints MOBILE------------------*/
 @media (max-width:767px) {
     .mobile {
-        background-color: #0997d3;
+       
     }
-    .row {
-        display: inline;
+   
+    .container-fluid1 {
+        background-color: #000;
+        background: url("/assets/images/cornwallmapBG.PNG");
+        height: 100vh;
+        opacity: 0.75;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        justify-content: center;
+        align-content: center;
+    }
+      .modal-body {
+        background-color: #000;
+        color: #4a4a4f;
+        text-align: center;
+        align-content: center;
+        border-radius: 10px;
     }
 }
 
 /*----------------index 4 - Contact US------------------*/
-.container-fluid1 {
-    background-color: #d0d5df;
-    background: url("/assets/images/cornwallmapBG.PNG");
-    height: 100vh;
-    padding: 16em;
-    opacity: 0.75;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    justify-content: center;
-    align-content: center;
-}
-.modal-body {
-    background-color: #d0d5d9;
-    color: #4a4a4f;
-    text-align: center;
-    align-content: center;
-    border-radius: 10px;
-}
+
 
 
